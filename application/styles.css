@@ -1,5 +1,5 @@
 body {
-  background-color: cornflowerblue;
+  background-color: #f0f6f2;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -10,4 +10,35 @@ h1 {
   font-family: "IBM Plex Serif", serif;
   font-weight: 700;
   font-style: normal;
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.header {
+  padding: 80px 0 0 0;
+  justify-content: space-around;
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.intro {
+  padding: 70px 0 0 0;
+  text-align: left;
+}
+
+.homepage-buttons {
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.homepage-project-button,
+.homepage-contact-button {
+  border: 2px solid #1cc24b;
+  padding: 10px;
+  border-radius: 2px;
 }
