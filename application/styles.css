@@ -1,17 +1,30 @@
+:root {
+  --background-color: #f0f6f2;
+  --branding-color: #1cc24b;
+  --heading-font-family: "IBM Plex Serif", serif;
+  --website-font-family: "Poppins", sans-serif;
+}
+
 body {
   background-color: #f0f6f2;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--website-font-family);
   font-weight: 500;
   font-style: normal;
-  text-align: center;
 }
 
 h1 {
-  font-family: "IBM Plex Serif", serif;
+  font-family: var(--heading-font-family);
   font-weight: 700;
   font-style: normal;
-  font-size: 60px;
+  font-size: 80px;
   margin-bottom: 25px;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  border-bottom: 2px solid var(--branding-color) ;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -19,15 +32,13 @@ h3 {
 }
 
 .header {
-  padding: 80px 0 0 0;
-  justify-content: space-between;
-  max-width: 90%;
+  margin: 80px 0;
   display: block;
-  margin: 0 auto;
 }
 
 .intro {
-  padding: 70px 0 0 0;
+  padding: 50px 0 0 0;
+  text-align: center;
 }
 
 .homepage-buttons {
@@ -37,7 +48,21 @@ h3 {
 
 .homepage-project-button,
 .homepage-contact-button {
-  border: 2px solid #1cc24b;
-  padding: 10px;
-  border-radius: 2px;
+  background-color: var(--branding-color);
+  color: #fff;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.about-section {
+ margin: 0 50px;
+}
+
+.about-description {
+  justify-content: space-between;
+}
+
+strong {
+  font-size: 24px;
 }
