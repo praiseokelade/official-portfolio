@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f0f6f2;
+  background-color: var(--background-color);
   font-family: var(--website-font-family);
   font-weight: 500;
   font-style: normal;
@@ -16,19 +16,19 @@ h1 {
   font-family: var(--heading-font-family);
   font-weight: 700;
   font-style: normal;
-  font-size: 80px;
+  font-size: 90px;
   margin-bottom: 25px;
 }
 
 h2 {
   font-family: var(--heading-font-family);
   font-weight: 500;
-  border-bottom: 2px solid var(--branding-color) ;
+  border-bottom: 2px solid var(--branding-color);
   padding-bottom: 10px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .header {
@@ -53,10 +53,11 @@ h3 {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   padding: 10px 15px;
+  font-size: 18px;
 }
 
 .about-section {
- margin: 0 50px;
+  margin: 0 50px;
 }
 
 .about-description {
@@ -65,4 +66,23 @@ h3 {
 
 strong {
   font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.social-media-footer {
+  margin: 50px;
+  border-top: 2px solid var(--branding-color);
+  padding: 20px;
+}
+
+.social-media {
+  text-align: center;
+}
+
+h5 {
+  font-size: 15px;
 }
