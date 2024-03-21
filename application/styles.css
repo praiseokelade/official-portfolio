@@ -21,7 +21,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+.about-page {
   font-family: var(--heading-font-family);
   font-weight: 500;
   border-bottom: 2px solid var(--branding-color);
@@ -111,4 +111,18 @@ h5 {
   p {
     font-size: 18px;
   }
+}
+
+.ai-generator-project {
+  justify-content: space-between;
+  display: block;
+}
+
+.ai-generator-image,
+.ai-generator-description {
+  margin: 20px 0 10px 10px;
+}
+
+.project-page {
+  margin: 50px 0;
 }
