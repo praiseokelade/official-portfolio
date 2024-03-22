@@ -89,7 +89,7 @@ a:hover {
 }
 
 .social-media-footer {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .social-media {
@@ -111,18 +111,35 @@ h5 {
   p {
     font-size: 18px;
   }
+  .ai-generator-project-image,
+  .weather-project-image,
+  .world-clock-project-image {
+    width: 300;
+  }
 }
 
-.ai-generator-project {
+.ai-generator-project,
+.weather-project,
+.world-clock-project {
   justify-content: space-between;
   display: block;
 }
 
-.ai-generator-image,
-.ai-generator-description {
+.ai-generator-project-image,
+.ai-generator-project-description,
+.weather-project-image,
+.weather-project-description,
+.world-clock-project-image,
+.world-clock-project-description {
   margin: 20px 0 10px 10px;
 }
 
-.project-page {
-  margin: 50px 0;
+.ai-generator-project-image:hover,
+.weather-project-image:hover,
+.world-clock-project-image:hover {
+  transform: scale(1.2);
+}
+
+.project-page-title {
+  margin: 70px 0;
 }
