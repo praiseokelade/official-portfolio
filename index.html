@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Take a look at my portfolio which demonstrates my proficiency with HTML, CSS and JavaScript.">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,7 +26,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="application/styles.css" />
-    <title>Praise Okelade</title>
+    <title>Portfolio - Praise Okelade</title>
   </head>
   <body>
     <nav
@@ -75,8 +76,8 @@
         <h1>Praise Okelade</h1>
         <h3>Front-end Developer in Training</h3>
         <div class="homepage-buttons d-flex">
-          <a href="/my-work.html" class="homepage-project-button">My Work</a>
-          <a href="/contact.html" class="homepage-contact-button">Contact Me</a>
+          <a href="/my-work.html" class="homepage-project-button shadow text-decoration-none">My Work</a>
+          <a href="/contact.html" class="homepage-contact-button shadow text-decoration-none">Contact Me</a>
         </div>
       </div>
     </div>
@@ -104,7 +105,17 @@
       </div>
     </div>
     <footer class="social-media-footer">
-      <div class="container d-flex justify-content-center">
+      <div class="container enquiries-holder d-flex justify-content-between mb-4">
+      <div class="enquiries">
+        <h2><strong class="work-enquiries">Work Enquiry</strong></h2>
+        <h3>Let's work together!</h3>
+      </div>
+      <div class="contact-button-holder pt-3">
+        <a href="/contact.html" class="btn btn-primary contact-button" role="button">Contact Me</a>
+      </div>
+    </div>
+
+      <div class="container d-flex justify-content-center mt-5">
           <div class="social-media">
             <a href="mailto:praiseokelade@gmail.com">
             <i class="fa-solid fa-envelope m-2"></i></a>
@@ -123,6 +134,10 @@
           </div>
         </div>
       </div>
+
+      <p class="m-5 sign-off">
+        This project was coded by Praise Okelade and it is open-sourced on <a href="https://github.com/praiseokelade/official-portfolio" target="_blank">GitHub</a>
+      </p>
     </footer>
   </body>
 </html>

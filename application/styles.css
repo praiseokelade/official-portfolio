@@ -64,6 +64,12 @@ h3 {
   font-size: 18px;
 }
 
+.homepage-contact-button:hover,
+.homepage-project-button:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}
+
 button:hover {
   transform: scale(1.1);
 }
@@ -77,10 +83,6 @@ button:hover {
 .about-paragraph {
   margin-top: 20px;
   font-size: 20px;
-}
-
-strong {
-  font-size: 28px;
 }
 
 a {
@@ -98,10 +100,11 @@ a:hover {
 .social-media-footer {
   margin-top: 20px;
   padding: 15px;
-  background-color: var(--background-color)
+  background-color: var(--background-color);
 }
 
-.fa-brands, .fa-solid {
+.fa-brands,
+.fa-solid {
   color: #000;
   border: 2px solid #000;
   border-radius: 50%;
@@ -109,7 +112,8 @@ a:hover {
   font-size: 12px;
 }
 
-.fa-brands:hover, .fa-solid:hover {
+.fa-brands:hover,
+.fa-solid:hover {
   color: var(--background-color);
   background-color: #000;
 }
@@ -188,4 +192,33 @@ h5 {
   text-align: center;
   font-size: 18px;
   margin-bottom: 80px;
+}
+
+.work-enquiries {
+  font-size: 34px;
+  font-family: var(--heading-font-family);
+}
+
+.enquiries-holder {
+  background-color: #f1f5f2;
+  padding: 30px;
+  border-radius: 4px;
+  max-width: 90%;
+}
+
+.contact-button {
+  background-color: var(--branding-color);
+  border: none;
+  padding: 10px;
+}
+
+.contact-button:hover {
+  transform: scale(1.1);
+  background-color: #3fa25b;
+  text-decoration: none;
+}
+
+.sign-off {
+  font-size: 12px;
+  text-align: center;
 }
