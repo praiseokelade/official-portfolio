@@ -3,22 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Take a look at my portfolio which demonstrates my proficiency with HTML, CSS and JavaScript.">
+    <meta
+      name="description"
+      content="Take a look at my portfolio which demonstrates my proficiency with HTML, CSS and JavaScript."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <script
@@ -57,9 +61,6 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about-section">About</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="/my-work.html">My Work</a>
             </li>
             <li class="nav-item">
@@ -70,73 +71,203 @@
       </div>
     </nav>
 
-    <div class="header">
+    <header>
       <div class="intro">
-        <h3>Hello, I am</h3>
         <h1>Praise Okelade</h1>
-        <h3>Front-end Developer in Training</h3>
-        <div class="homepage-buttons d-flex">
-          <a href="/my-work.html" class="homepage-project-button shadow text-decoration-none">My Work</a>
-          <a href="/contact.html" class="homepage-contact-button shadow text-decoration-none">Contact Me</a>
-        </div>
-      </div>
-    </div>
+        <h3>Junior Front-end Developer</h3>
 
-    <div class="about-section mt-3 container" id="about-section">
-      <h2 class="about-page">about</h2>
-      <div class="about-description row">
-        <div class="profile-picture col-md-6">
-          <img
-            src="images/Profile Picture.jpg"
-            alt="Praise Okelade"
-            class="rounded img-fluid shadow"
-          />
-        </div>
-        <div class="about-paragraph col-md-6">
-          <div><strong>Front-end developer based in England</strong></div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus
-            eget nunc scelerisque viverra mauris in aliquam sem fringilla. Enim
-            nec dui nunc mattis enim ut tellus.
-          </p>
-          <a href="/my-work.html">See My Work</a>
+        <div class="homepage-buttons d-flex">
+          <a
+            href="/my-work.html"
+            class="homepage-project-button shadow text-decoration-none"
+            >My Work</a
+          >
+          <a
+            href="/contact.html"
+            class="homepage-contact-button shadow text-decoration-none"
+            >Contact Me</a
+          >
         </div>
       </div>
-    </div>
+    </header>
+    <main>
+      <div class="about-section container" id="about-section">
+            <div class="about-grid">
+              <div class="row">
+                <div class="col-4">
+                  <i class="fa-solid fa-earth-europe"></i>
+                  <div><strong>Front-end developer based in England</strong></div>
+                </div>
+                <div class="col-4">
+                  <i class="fa-solid fa-screwdriver-wrench about-icons"></i>
+                  <p><strong>Tools:</strong> VS Code, GitHub, Netlify</p>
+                </div> 
+                <div class="col-4">
+                  <i class="fa-brands fa-react about-icons"></i>
+                  <p>
+                    <strong>Technologies:</strong> React.js, Bootstrap,
+                    Responsive Development
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="/my-work.html" class="btn about-button">See My Work</a>
+       </div>   
+      <section>
+        <div class="card grid">
+          <div class="row">
+            <div class="card-body col-3">
+              <h5 class="card-title">Music Project</h5>
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/262/original/Screenshot_2024-09-05_161820.png?1725549863"
+                alt="Music Project"
+                class="img-fluid card-image rounded"
+              />
+              <p class="card-text">Built using HTML & CSS</p>
+              <a
+                href="https://www.shecodes.io/cohorts/1609/projects/2027409"
+                target="_blank"
+                class="btn card-button"
+                >View project</a
+              >
+            </div>
+            <div class="card-body col-3">
+              <h5 class="card-title">Weather Project</h5>
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/263/original/Screenshot_2024-09-05_161856.png?1725549881"
+                alt="Weather Project"
+                class="img-fluid card-image rounded"
+              />
+              <p class="card-text">Built using HTML, CSS & GitHub</p>
+              <a
+                href="https://www.shecodes.io/cohorts/1556/projects/2020283"
+                target="_blank"
+                class="btn card-button"
+                >View project</a
+              >
+            </div>
+            <div class="card-body col-3">
+              <h5 class="card-title">World Clock Project</h5>
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/264/original/Screenshot_2024-09-05_161922.png?1725549898"
+                alt="World Clock Project"
+                class="img-fluid card-image rounded"
+              />
+              <p class="card-text">
+                Built using GitHub, JS, VSCode, API, Netlify
+              </p>
+              <a
+                href="https://www.shecodes.io/cohorts/1620/projects/2052522"
+                target="_blank"
+                class="btn card-button"
+                >View project</a
+              >
+            </div>
+            <div class="row">
+              <div class="card-body col-3">
+                <h5 class="card-title">AI Recipe Generator</h5>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/267/original/Screenshot_2024-09-05_162034.png?1725550093"
+                  alt="AI Recipe Generator"
+                  class="img-fluid card-image rounded"
+                />
+                <p class="card-text">
+                  Built using GitHub, VSCode, API, AI, Netlify
+                </p>
+                <a
+                  href="https://www.shecodes.io/cohorts/1705/projects/2086530"
+                  class="card-button btn"
+                  target="_blank"
+                  >View project</a
+                >
+              </div>
+              <div class="card-body col-3">
+                <h5 class="card-title">Music Artist Project</h5>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/266/original/Screenshot_2024-09-05_162145.png?1725549927"
+                  alt="Music Artist Project"
+                  class="img-fluid class-image rounded"
+                />
+                <p class="class-text">
+                  Built using SEO, Responsive Development, Netlify, GitHub
+                </p>
+                <a
+                  href="https://www.shecodes.io/cohorts/1765/projects/2184209"
+                  target="_blank"
+                  class="btn card-button"
+                  >View project</a
+                >
+              </div>
+              <div class="card-body col-3">
+                <h5 class="card-title">Dictionary Project</h5>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/142/265/original/Screenshot_2024-09-05_162234.png?1725549912"
+                  alt="Dictionary Project"
+                  class="card-image img-fluid rounded"
+                />
+                <p class="card-text">
+                  Built using Bootstrap, React.js, API, Netlify
+                </p>
+                <a
+                  href="https://www.shecodes.io/cohorts/1895/projects/2259483"
+                  target="_blank"
+                  class="card-button btn"
+                  >View project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="contact-form"></div>
+      </section>
+    </main>
     <footer class="social-media-footer">
-      <div class="container enquiries-holder d-flex justify-content-between mb-4">
-      <div class="enquiries">
-        <h2><strong class="work-enquiries">Work Enquiry</strong></h2>
-        <h3>Let's work together!</h3>
+      <div
+        class="container enquiries-holder d-flex justify-content-between mb-4"
+      >
+        <div class="enquiries">
+          <h2><strong class="work-enquiries">Work Enquiry</strong></h2>
+          <h3>Let's work together!</h3>
+        </div>
+        <div class="contact-button-holder pt-3">
+          <a
+            href="/contact.html"
+            class="btn btn-primary contact-button"
+            role="button"
+            >Contact Me</a
+          >
+        </div>
       </div>
-      <div class="contact-button-holder pt-3">
-        <a href="/contact.html" class="btn btn-primary contact-button" role="button">Contact Me</a>
-      </div>
-    </div>
 
       <div class="container d-flex justify-content-center mt-2">
-          <div class="social-media">
-            <a href="mailto:praiseokelade@gmail.com">
-            <i class="fa-solid fa-envelope m-2"></i></a>
-          </div>
-            <div class="social-media">
-            <a href="https://github.com/praiseokelade" target="_blank"
-              ><i class="fa-brands fa-github m-2"></i
-            ></a>
-          </div>
-          <div class="social-media">
-            <a
-              href="https://www.linkedin.com/in/praise-okelade-10a86229b/"
-              target="_blank"
-              ><i class="fa-brands fa-linkedin m-2"></i
-            ></a>
-          </div>
+        <div class="social-media">
+          <a href="mailto:praiseokelade@gmail.com">
+            <i class="fa-solid fa-envelope m-2"></i
+          ></a>
+        </div>
+        <div class="social-media">
+          <a href="https://github.com/praiseokelade" target="_blank"
+            ><i class="fa-brands fa-github m-2"></i
+          ></a>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/praise-okelade-10a86229b/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin m-2"></i
+          ></a>
         </div>
       </div>
 
       <p class="m-5 sign-off">
-        This project was coded by Praise Okelade and it is open-sourced on <a href="https://github.com/praiseokelade/official-portfolio" target="_blank">GitHub</a>
+        This project was coded by Praise Okelade and it is open-sourced on
+        <a
+          href="https://github.com/praiseokelade/official-portfolio"
+          target="_blank"
+          >GitHub</a
+        >
       </p>
     </footer>
   </body>
