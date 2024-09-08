@@ -124,10 +124,6 @@ a:hover {
   margin: 0 auto;
 }
 
-.card-body {
-  grid-gap: 20px;
-}
-
 .card-title {
   font-weight: bold;
   font-family: var(--website-font-family);
@@ -175,6 +171,10 @@ a:hover {
 .fa-solid:hover {
   color: var(--background-color);
   background-color: #000;
+}
+
+.resume {
+  font-size: 15px;
 }
 
 h5 {
